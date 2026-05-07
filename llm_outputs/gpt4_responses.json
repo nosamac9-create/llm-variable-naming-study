@@ -1,0 +1,811 @@
+{
+  "model": "gpt-4",
+  "temperature": 0.2,
+  "runs_per_snippet": 3,
+  "note": "Each entry shows the modal (most frequent) name across 3 independent runs.",
+  "snippets": [
+    {
+      "file": "01_array_sum.java",
+      "variables": [
+        {
+          "placeholder": "v1",
+          "human_name": "numbers",
+          "llm_name": "values",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v2",
+          "human_name": "total",
+          "llm_name": "totalVar",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v3",
+          "human_name": "length",
+          "llm_name": "arrayLength",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v4",
+          "human_name": "i",
+          "llm_name": "i",
+          "shared_head_noun": true
+        }
+      ]
+    },
+    {
+      "file": "02_find_max.java",
+      "variables": [
+        {
+          "placeholder": "v1",
+          "human_name": "values",
+          "llm_name": "items",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v2",
+          "human_name": "max",
+          "llm_name": "maxValue",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v3",
+          "human_name": "n",
+          "llm_name": "size",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v4",
+          "human_name": "i",
+          "llm_name": "i",
+          "shared_head_noun": true
+        }
+      ]
+    },
+    {
+      "file": "03_count_words.java",
+      "variables": [
+        {
+          "placeholder": "v1",
+          "human_name": "sentence",
+          "llm_name": "sentenceVar",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v2",
+          "human_name": "count",
+          "llm_name": "counter",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v3",
+          "human_name": "trimmed",
+          "llm_name": "trimmedVar",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v4",
+          "human_name": "tokens",
+          "llm_name": "tokensVar",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v5",
+          "human_name": "word",
+          "llm_name": "word",
+          "shared_head_noun": true
+        }
+      ]
+    },
+    {
+      "file": "04_reverse_string.java",
+      "variables": [
+        {
+          "placeholder": "v1",
+          "human_name": "input",
+          "llm_name": "input",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v2",
+          "human_name": "chars",
+          "llm_name": "charArray",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v3",
+          "human_name": "start",
+          "llm_name": "begin",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v4",
+          "human_name": "end",
+          "llm_name": "stop",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v5",
+          "human_name": "temp",
+          "llm_name": "temp",
+          "shared_head_noun": true
+        }
+      ]
+    },
+    {
+      "file": "05_factorial.java",
+      "variables": [
+        {
+          "placeholder": "v1",
+          "human_name": "n",
+          "llm_name": "size",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v2",
+          "human_name": "result",
+          "llm_name": "output",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v3",
+          "human_name": "i",
+          "llm_name": "i",
+          "shared_head_noun": true
+        }
+      ]
+    },
+    {
+      "file": "06_is_prime.java",
+      "variables": [
+        {
+          "placeholder": "v1",
+          "human_name": "number",
+          "llm_name": "number",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v2",
+          "human_name": "limit",
+          "llm_name": "upperBound",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v3",
+          "human_name": "divisor",
+          "llm_name": "divisor",
+          "shared_head_noun": true
+        }
+      ]
+    },
+    {
+      "file": "07_bank_account.java",
+      "variables": [
+        {
+          "placeholder": "v1",
+          "human_name": "withdraw",
+          "llm_name": "withdrawVar",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v2",
+          "human_name": "amount",
+          "llm_name": "amount",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v3",
+          "human_name": "balance",
+          "llm_name": "currentBalance",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v4",
+          "human_name": "transactions",
+          "llm_name": "history",
+          "shared_head_noun": false
+        }
+      ]
+    },
+    {
+      "file": "08_bubble_sort.java",
+      "variables": [
+        {
+          "placeholder": "v1",
+          "human_name": "arr",
+          "llm_name": "array",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v2",
+          "human_name": "length",
+          "llm_name": "arrayLength",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v3",
+          "human_name": "pass",
+          "llm_name": "iteration",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v4",
+          "human_name": "j",
+          "llm_name": "j",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v5",
+          "human_name": "swap",
+          "llm_name": "swapVar",
+          "shared_head_noun": true
+        }
+      ]
+    },
+    {
+      "file": "09_linear_search.java",
+      "variables": [
+        {
+          "placeholder": "v1",
+          "human_name": "data",
+          "llm_name": "dataArray",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v2",
+          "human_name": "target",
+          "llm_name": "target",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v3",
+          "human_name": "n",
+          "llm_name": "size",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v4",
+          "human_name": "index",
+          "llm_name": "position",
+          "shared_head_noun": false
+        }
+      ]
+    },
+    {
+      "file": "10_average.java",
+      "variables": [
+        {
+          "placeholder": "v1",
+          "human_name": "grades",
+          "llm_name": "grades",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v2",
+          "human_name": "sum",
+          "llm_name": "totalSum",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v3",
+          "human_name": "count",
+          "llm_name": "count",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v4",
+          "human_name": "grade",
+          "llm_name": "grade",
+          "shared_head_noun": true
+        }
+      ]
+    },
+    {
+      "file": "11_contains.java",
+      "variables": [
+        {
+          "placeholder": "v1",
+          "human_name": "text",
+          "llm_name": "text",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v2",
+          "human_name": "pattern",
+          "llm_name": "pattern",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v3",
+          "human_name": "textLen",
+          "llm_name": "textLength",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v4",
+          "human_name": "patternLen",
+          "llm_name": "patternLength",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v5",
+          "human_name": "i",
+          "llm_name": "i",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v6",
+          "human_name": "window",
+          "llm_name": "windowVar",
+          "shared_head_noun": true
+        }
+      ]
+    },
+    {
+      "file": "12_even_count.java",
+      "variables": [
+        {
+          "placeholder": "v1",
+          "human_name": "numbers",
+          "llm_name": "numbers",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v2",
+          "human_name": "evenCount",
+          "llm_name": "evens",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v3",
+          "human_name": "oddCount",
+          "llm_name": "odds",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v4",
+          "human_name": "n",
+          "llm_name": "size",
+          "shared_head_noun": false
+        }
+      ]
+    },
+    {
+      "file": "13_fibonacci.java",
+      "variables": [
+        {
+          "placeholder": "v1",
+          "human_name": "n",
+          "llm_name": "n",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v2",
+          "human_name": "prev",
+          "llm_name": "previous",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v3",
+          "human_name": "curr",
+          "llm_name": "current",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v4",
+          "human_name": "i",
+          "llm_name": "i",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v5",
+          "human_name": "next",
+          "llm_name": "next",
+          "shared_head_noun": true
+        }
+      ]
+    },
+    {
+      "file": "14_gcd.java",
+      "variables": [
+        {
+          "placeholder": "v1",
+          "human_name": "a",
+          "llm_name": "first",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v2",
+          "human_name": "b",
+          "llm_name": "second",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v3",
+          "human_name": "remainder",
+          "llm_name": "remainder",
+          "shared_head_noun": true
+        }
+      ]
+    },
+    {
+      "file": "15_student.java",
+      "variables": [
+        {
+          "placeholder": "v1",
+          "human_name": "courses",
+          "llm_name": "courses",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v2",
+          "human_name": "weightedSum",
+          "llm_name": "weightedTotal",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v3",
+          "human_name": "totalCredits",
+          "llm_name": "creditTotal",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v4",
+          "human_name": "course",
+          "llm_name": "course",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v5",
+          "human_name": "points",
+          "llm_name": "gradePoints",
+          "shared_head_noun": true
+        }
+      ]
+    },
+    {
+      "file": "16_palindrome.java",
+      "variables": [
+        {
+          "placeholder": "v1",
+          "human_name": "word",
+          "llm_name": "token",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v2",
+          "human_name": "left",
+          "llm_name": "left",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v3",
+          "human_name": "right",
+          "llm_name": "right",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v4",
+          "human_name": "leftChar",
+          "llm_name": "leftCharacter",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v5",
+          "human_name": "rightChar",
+          "llm_name": "rightCharacter",
+          "shared_head_noun": true
+        }
+      ]
+    },
+    {
+      "file": "17_transpose.java",
+      "variables": [
+        {
+          "placeholder": "v1",
+          "human_name": "matrix",
+          "llm_name": "matrix",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v2",
+          "human_name": "rows",
+          "llm_name": "rowCount",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v3",
+          "human_name": "cols",
+          "llm_name": "colCount",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v4",
+          "human_name": "result",
+          "llm_name": "output",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v5",
+          "human_name": "r",
+          "llm_name": "row",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v6",
+          "human_name": "c",
+          "llm_name": "col",
+          "shared_head_noun": true
+        }
+      ]
+    },
+    {
+      "file": "18_vowel_count.java",
+      "variables": [
+        {
+          "placeholder": "v1",
+          "human_name": "text",
+          "llm_name": "inputText",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v2",
+          "human_name": "vowels",
+          "llm_name": "vowelCount",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v3",
+          "human_name": "lower",
+          "llm_name": "lowercased",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v4",
+          "human_name": "vowelSet",
+          "llm_name": "vowelChars",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v5",
+          "human_name": "i",
+          "llm_name": "index",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v6",
+          "human_name": "ch",
+          "llm_name": "letter",
+          "shared_head_noun": false
+        }
+      ]
+    },
+    {
+      "file": "19_queue.java",
+      "variables": [
+        {
+          "placeholder": "v1",
+          "human_name": "enqueue",
+          "llm_name": "enqueueVar",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v2",
+          "human_name": "item",
+          "llm_name": "element",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v3",
+          "human_name": "size",
+          "llm_name": "currentSize",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v4",
+          "human_name": "capacity",
+          "llm_name": "maxSize",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v5",
+          "human_name": "items",
+          "llm_name": "buffer",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v6",
+          "human_name": "tail",
+          "llm_name": "tailIndex",
+          "shared_head_noun": true
+        }
+      ]
+    },
+    {
+      "file": "20_discount.java",
+      "variables": [
+        {
+          "placeholder": "v1",
+          "human_name": "price",
+          "llm_name": "originalPrice",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v2",
+          "human_name": "percent",
+          "llm_name": "rate",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v3",
+          "human_name": "rate",
+          "llm_name": "fraction",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v4",
+          "human_name": "discount",
+          "llm_name": "discountAmount",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v5",
+          "human_name": "finalPrice",
+          "llm_name": "finalAmount",
+          "shared_head_noun": true
+        }
+      ]
+    },
+    {
+      "file": "21_power.java",
+      "variables": [
+        {
+          "placeholder": "v1",
+          "human_name": "base",
+          "llm_name": "baseValue",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v2",
+          "human_name": "exponent",
+          "llm_name": "power",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v3",
+          "human_name": "result",
+          "llm_name": "output",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v4",
+          "human_name": "absExp",
+          "llm_name": "absoluteExponent",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v5",
+          "human_name": "i",
+          "llm_name": "index",
+          "shared_head_noun": true
+        }
+      ]
+    },
+    {
+      "file": "22_temperature.java",
+      "variables": [
+        {
+          "placeholder": "v1",
+          "human_name": "celsius",
+          "llm_name": "celsiusTemp",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v2",
+          "human_name": "scaled",
+          "llm_name": "scaledValue",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v3",
+          "human_name": "fahrenheit",
+          "llm_name": "fahrenheitTemp",
+          "shared_head_noun": true
+        }
+      ]
+    },
+    {
+      "file": "23_leap_year.java",
+      "variables": [
+        {
+          "placeholder": "v1",
+          "human_name": "year",
+          "llm_name": "y",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v2",
+          "human_name": "divisibleBy4",
+          "llm_name": "div4",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v3",
+          "human_name": "divisibleBy100",
+          "llm_name": "div100",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v4",
+          "human_name": "divisibleBy400",
+          "llm_name": "div400",
+          "shared_head_noun": true
+        }
+      ]
+    },
+    {
+      "file": "24_stack.java",
+      "variables": [
+        {
+          "placeholder": "v1",
+          "human_name": "top",
+          "llm_name": "topIndex",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v2",
+          "human_name": "popped",
+          "llm_name": "value",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v3",
+          "human_name": "stack",
+          "llm_name": "elements",
+          "shared_head_noun": false
+        }
+      ]
+    },
+    {
+      "file": "25_cart_total.java",
+      "variables": [
+        {
+          "placeholder": "v1",
+          "human_name": "products",
+          "llm_name": "cart",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v2",
+          "human_name": "subtotal",
+          "llm_name": "preTaxTotal",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v3",
+          "human_name": "tax",
+          "llm_name": "taxAmount",
+          "shared_head_noun": true
+        },
+        {
+          "placeholder": "v4",
+          "human_name": "taxRate",
+          "llm_name": "salesTax",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v5",
+          "human_name": "product",
+          "llm_name": "item",
+          "shared_head_noun": false
+        },
+        {
+          "placeholder": "v6",
+          "human_name": "lineTotal",
+          "llm_name": "itemCost",
+          "shared_head_noun": false
+        }
+      ]
+    }
+  ]
+}

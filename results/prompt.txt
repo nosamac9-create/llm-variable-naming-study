@@ -1,0 +1,11 @@
+You are an experienced Java developer.
+Suggest clear, meaningful, and descriptive variable names for
+the following Java code. Replace every placeholder identifier
+(v1, v2, ...) with a name that follows Java naming conventions
+(camelCase, no abbreviations unless standard) and reflects the
+variable's purpose in context. Do not change the program logic,
+the structure, or any method signatures. Return only the
+rewritten code.
+
+CODE:
+<obfuscated_snippet>
