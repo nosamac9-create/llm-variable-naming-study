@@ -30,7 +30,8 @@ This study evaluates whether ChatGPT (GPT-4) can generate variable names in Java
 │   ├── automatic_metrics.csv # Per-variable exact match and NEDS scores
 │   ├── survey_summary.csv    # Aggregated Likert and preference data
 │   └── prompt.txt            # The final prompt used for the experiment
-```
+├── report/
+│   └── CCSW325_Final_Report.pdf   # Full course project report
 
 ## How to Reproduce
 
