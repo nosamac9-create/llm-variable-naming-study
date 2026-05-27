@@ -63,4 +63,7 @@ See the project report (`CCSW325_Final_Report.pdf`) for the full discussion.
 
 ## License
 
-The Java snippets in `snippets/original/` were either drawn from open-source repositories under permissive licenses or written by the authors for this study. All experimental artifacts (scripts, results, survey data) are released for academic, non-commercial use.
+This repository uses a dual license:
+
+- **Code** (`scripts/`): [MIT License](LICENSE)
+- **Data, results, and report** (`snippets/`, `llm_outputs/`, `results/`, `survey/`, `report/`): [CC BY 4.0](LICENSE-DATA)
