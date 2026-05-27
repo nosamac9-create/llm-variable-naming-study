@@ -67,3 +67,6 @@ This repository uses a dual license:
 
 - **Code** (`scripts/`): [MIT License](LICENSE)
 - **Data, results, and report** (`snippets/`, `llm_outputs/`, `results/`, `survey/`, `report/`): [CC BY 4.0](LICENSE-DATA)
+
+The Java snippets in `snippets/original/` are short, standard implementations
+of common introductory programming exercises, used here for research purposes.
